@@ -1,3 +1,7 @@
+#ifdef GL_ES
+precision mediump float;
+#endif
+
 //  Function from Iñigo Quiles
 //  https://www.shadertoy.com/view/MsS3Wc
 vec3 hsb2rgb(in vec3 c) {
